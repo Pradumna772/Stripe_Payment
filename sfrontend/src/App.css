@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.contact-background-image {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5943e8e71e5b6c9dbb998f83/1502912689749-BIE9T7DJGAANVVMPZPSY/ke17ZwdGBToddI8pDm48kKKhnIMhzx_4_WeLFlTSnx8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dlBqo6xoEPnIx0PVGbT6iY6QNnW9_pLGUnmSa_cPQm7ECjLISwBs8eEdxAxTptZAUg/Header+Diagram+%2B+Background%402x.png?format=2500w");
+  padding: 50px 0 50px 0;
+  height: 400px;
+  background-size: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
